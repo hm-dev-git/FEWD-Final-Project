@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  margin: 2px;
+  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+}
