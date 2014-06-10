@@ -2,13 +2,22 @@
   box-sizing: border-box;
 }
 
+nav {
+  border: 2px solid red;
+}
+
 ul {
   list-style: none;
 }
 ul li {
   display: inline-block;
-  margin: 2px;
+  margin: 2px auto;
   border: 2px solid black;
   height: 50px;
-  width: 50px;
+  width: 12%;
+}
+
+.month {
+  text-align: center;
+  display: block;
 }

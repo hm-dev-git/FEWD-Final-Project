@@ -1,5 +1,10 @@
 * {
 	box-sizing: border-box;
+	//font: 13px/26px "Helvetica Neue", Verdana, sans-serif;
+}
+
+nav {
+	border: 2px solid red;
 }
 
 ul{
@@ -7,11 +12,17 @@ ul{
 
 	li{
 		display: inline-block;
-		margin: 2px;
+		margin: 2px auto;
 		border: 2px solid black;
 		height: 50px;
-		width: 50px;
+		width: 12%;
 	}
+}
+
+.month{
+	text-align: center;
+	display: block;
+
 }
 
 
