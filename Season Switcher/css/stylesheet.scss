@@ -1,12 +1,16 @@
 * {
 	box-sizing: border-box;
 	font: 13px/26px "Helvetica Neue", Verdana, sans-serif;
-	color: white;
+
 }
 
 body {
-	background-image:url(../images/seasons_by_spectercody-d57al1s.jpg); 
-	background-position: -50% 0;
+	background: black;
+	//background-image: url(../images/summer.jpg);
+	background-repeat:no-repeat;
+	//background-position: 0% 20%;
+  background-size: cover;
+
 }
 
 nav {
@@ -29,15 +33,17 @@ ul{
 		height: 2rem;
 		width: 10%;
 		text-align: center;
+		background-color: white;
 	}
 }
 
-.month{
+.titleHead{
 	text-align: center;
 	display: block;
 	margin: 1% 1%;
 	padding: 2px 2px;	
 	font-size: 3rem;
+	color: grey;
 }
 
 
