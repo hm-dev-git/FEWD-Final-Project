@@ -8,19 +8,29 @@
 // console.log(Date.prototype.getMonth());
 
 //src: http://jsfiddle.net/dstorey/Xgerq/
-var daToday = Date.today(),  //do not need NEW for an actual object
+var daToday = new Date.now(),
     loc = "en-US";
     
 function writeMonth(){
-	month = daToday.toLocaleString(loc, { month: "long" });
-	// console.log(month);
-	$("#title_month").html(month);
+	monthFull = daToday.toLocaleString(loc, { month: "long" });
+	console.log(monthFull); 
+	$("#title_month").html(monthFull);
 }
-writeMonth();
+
 
 
 function writeDaysOfWeek(){
-	console.log(daToday.toLocaleString(loc, { weekday: "short"}));
+	// console.log(daToday.toLocaleString(loc, { weekday: "short"}));
+	for (var i = 0; i < 7; i++) {
+		var dateKeeper = daToday;
+		// console.log(dateKeeper);
+		var wkDay = daToday.toLocaleString(loc, { weekday: "short"});
+		$('#'+wkDay).html(dateKeeper.getDate());
 
+		
+	}
 }
+
+
+writeMonth();
 writeDaysOfWeek();
