@@ -22,12 +22,16 @@ function writeMonth(){
 function writeDaysOfWeek(){
 	// console.log(daToday.toLocaleString(loc, { weekday: "short"}));
 	for (var i = 0; i < 7; i++) {
-		var dateKeeper = daToday;
-		// console.log(dateKeeper);
+		var dateTrack = daToday;
 		var wkDay = daToday.toLocaleString(loc, { weekday: "short"});
-		$('#'+wkDay).html(dateKeeper.getDate());
+		$('#'+wkDay).html(dateTrack.getDate());
 
-		
+		if (wkDay == "Sat") {
+			dateTrack.addDays(-6);
+		} else {
+			dateTrack.addDays(1);
+		}
+
 	}
 }
 
