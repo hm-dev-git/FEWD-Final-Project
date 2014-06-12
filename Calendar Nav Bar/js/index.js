@@ -8,13 +8,19 @@
 // console.log(Date.prototype.getMonth());
 
 //src: http://jsfiddle.net/dstorey/Xgerq/
-var dateToday = new Date.today(),
-    locale = "en-us",
-    month = dateToday.toLocaleString(locale, { month: "long" });
-
-
+var daToday = Date.today(),  //do not need NEW for an actual object
+    loc = "en-US";
+    
 function writeMonth(){
-	console.log(month);
+	month = daToday.toLocaleString(loc, { month: "long" });
+	// console.log(month);
 	$("#title_month").html(month);
 }
 writeMonth();
+
+
+function writeDaysOfWeek(){
+	console.log(daToday.toLocaleString(loc, { weekday: "short"}));
+
+}
+writeDaysOfWeek();

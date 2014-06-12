@@ -1,0 +1,17 @@
+Purpose: Solve one problem at a time
+— — — — 
+
+12 Jun 2014
+#13:00 - make the day of the month fill in the weekday box
+##then, have special highlighting for the current day 
+learnings:
+>13:30 - have to use an actual date object, as in a variable defined by the function Date() to get half the shit to work. Cool
+>13:50 - switched my HTML ids to 3char weekday names to improve compatibility with JS functions
+
+
+
+
+
+—
+Moving forward
+Browser compatibility? don’t use moz or webkit all that much, like for text align
