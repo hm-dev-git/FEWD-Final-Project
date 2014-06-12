@@ -13,11 +13,9 @@ var daToday = new Date.now(),
     
 function writeMonth(){
 	monthFull = daToday.toLocaleString(loc, { month: "long" });
-	console.log(monthFull); 
+	// console.log(monthFull); 
 	$("#title_month").html(monthFull);
 }
-
-
 
 function writeDaysOfWeek(){
 	// console.log(daToday.toLocaleString(loc, { weekday: "short"}));

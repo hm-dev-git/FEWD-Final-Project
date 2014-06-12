@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font: 13px/26px "Helvetica Neue", Verdana, sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url(../images/seasons_by_spectercody-d57al1s.jpg);
+  background-position: -50% 0;
+}
+
+nav {
+  border: 1px solid red;
+  padding: 5px 5px;
+}
+
+ul {
+  border: 1px solid blue;
+  list-style: none;
+  width: 96%;
+  margin: 1% 1%;
+  padding: 2px 2px;
+}
+ul li {
+  display: inline-block;
+  margin: 1% 1%;
+  padding: 2px 2px;
+  border: 1px solid black;
+  height: 2rem;
+  width: 10%;
+  text-align: center;
+}
+
+.month {
+  text-align: center;
+  display: block;
+  margin: 1% 1%;
+  padding: 2px 2px;
+  font-size: 3rem;
+}

@@ -8,8 +8,10 @@ learnings:
 >13:30 - have to use an actual date object, as in a variable defined by the function Date() to get half the shit to work. Cool
 >13:50 - switched my HTML ids to 3char weekday names to improve compatibility with JS functions
 
+#15:00 got the days to work! now focusing on margins and such
 
-
+#15:40 - background image fun
+>15:41 - change the font colors and such
 
 
 —
