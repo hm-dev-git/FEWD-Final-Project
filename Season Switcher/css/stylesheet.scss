@@ -6,20 +6,18 @@
 
 body {
 	background: black;
-	//background-image: url(../images/summer.jpg);
 	background-repeat:no-repeat;
-	//background-position: 0% 20%;
   background-size: cover;
 
 }
 
 nav {
-	border: 1px solid red;
+	//border: 1px solid red;
 	padding: 5px 5px;
 }
 
 ul{
-	border: 1px solid blue;
+	//border: 1px solid blue;
 	list-style: none;
 	width: 96%;
 	margin: 1% 1%;
@@ -35,9 +33,13 @@ ul{
 		text-align: center;
 		background-color: white;
 	}
+
+		#spri{
+			margin-left: 25%;
+		}
 }
 
-.titleHead{
+h2{
 	text-align: center;
 	display: block;
 	margin: 1% 1%;

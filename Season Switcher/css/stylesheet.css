@@ -10,12 +10,10 @@ body {
 }
 
 nav {
-  border: 1px solid red;
   padding: 5px 5px;
 }
 
 ul {
-  border: 1px solid blue;
   list-style: none;
   width: 96%;
   margin: 1% 1%;
@@ -31,8 +29,11 @@ ul li {
   text-align: center;
   background-color: white;
 }
+ul #spri {
+  margin-left: 25%;
+}
 
-.titleHead {
+h2 {
   text-align: center;
   display: block;
   margin: 1% 1%;
